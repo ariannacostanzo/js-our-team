@@ -38,7 +38,20 @@ const employees = [
     }
 ]
 
+let card = 
+`
+<div class="col">
+    <div class="my-card">`;
 
 for (let employee of employees) {
-    logSomething(employee)
+    
+
+    
 }
+
+
+card += `
+    </div> 
+</div>`
+
+row.appendChild(card)
