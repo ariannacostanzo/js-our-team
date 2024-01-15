@@ -48,7 +48,7 @@ for (let employee of employees) {
     card += 
     `<div class="col">
         <div class="my-card">
-            <img src="../images/${employee.image}">
+            <img src="images/${employee.image}">
             <p class="employee-name">${employee.name}</p>
             <p class="employee-role">${employee.role}</p>
         </div> 
