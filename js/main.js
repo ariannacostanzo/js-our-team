@@ -38,10 +38,13 @@ const employees = [
     }
 ]
 
+//creo un inizio di card
 let card = '';
 
+//in un ciclo di 6(ovvero la lunghezza del mio array)
 for (let employee of employees) {
     
+    //creo tanti div .col con dentro i dati dinamici presi dagli objects dentro l'array
     card += 
     `<div class="col">
         <div class="my-card">
@@ -55,5 +58,5 @@ for (let employee of employees) {
 }
 
 
-
+//li appendo alla row
 row.innerHTML = card
