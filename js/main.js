@@ -39,3 +39,6 @@ const employees = [
 ]
 
 
+for (let employee of employees) {
+    logSomething(employee)
+}
