@@ -1,5 +1,6 @@
 const logSomething = (something) => console.log(something);
 
+
 //prendo gli elementi che mi servono
 
 const row = document.querySelector('.row');
@@ -36,3 +37,5 @@ const employees = [
         image: 'barbara-ramos-graphic-designer.jpg'
     }
 ]
+
+
