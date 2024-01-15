@@ -38,20 +38,22 @@ const employees = [
     }
 ]
 
-let card = 
-`
-<div class="col">
-    <div class="my-card">`;
+let card = '';
 
 for (let employee of employees) {
     
+    card += 
+    `<div class="col">
+        <div class="my-card">
+            <img src="../images/${employee.image}">
+            <p class="employee-name">${employee.name}</p>
+            <p class="employee-role">${employee.role}</p>
+        </div> 
+    </div>`
 
-    
+
 }
 
 
-card += `
-    </div> 
-</div>`
 
-row.appendChild(card)
+row.innerHTML = card
